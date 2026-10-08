@@ -68,7 +68,46 @@ int main() {
         cout << "The expression " << x << " == " << y << " is false" << endl;
     } 
 
+    
+    // TYPE             // Assignment Operator
+         // NAME        
+    bool t_or_f = /* Expression that evaluates to true or false*/ true;
 
+    // KEYWORD if (parenthesis enclose expressions)
+    if(/*EXPRESSION*/t_or_f) 
+    // Consequence, executed if expression is true
+    {   // Basic BlocK 
+        // Left Brace start block {
+        // Right Brace end block {
+        cout << boolalpha ;
+        cout << "t_or_f: " << t_or_f << endl;
+    }
+    // If false execution continues after consequnce block(s)
+
+    bool test1 = false;
+    bool test2 = false;
+    bool test3 = false;
+
+    // Exactly one block will be executed:
+    if(test1) {
+        // Execute if test1 is true
+        // continue after else {}
+    } else  {
+       // Execute if test1 is false
+    } 
+
+    // Exactly one block will be executed:
+    if(test1) {
+        // Execute if test1 is true
+        // continue after last else {}
+    } else if (test2) {
+
+    } else if (test3) {
+
+    } else {
+
+    }
+    // Always contiue here
 
     return 0;
 }
